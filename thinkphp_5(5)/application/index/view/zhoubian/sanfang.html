@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+  <link rel="shortcut icon" href="favicons/1.png">
+
+  <link rel="stylesheet" href="__CSS__/reset.css">
+  <link rel="stylesheet" href="__CSS__/common.css">
+  <link rel="stylesheet" href="__CSS__/index.css">
+  <link rel="stylesheet" href="__CSS__/donwload.css">
+  <link rel="stylesheet" type="text/css" href="__CSS__/iconfont.css">
+  <link rel="stylesheet" type="text/css" href="__CSS__/home.css">
+   <link rel="stylesheet" type="text/css" href="__CSS__/dastyle.css">
+  <!-- bootstrap -->
+    <link rel="stylesheet" href="__BOOTSTRAP__/css/bootstrap.css">
+    <script type="text/javascript" src="__BOOTSTRAP__/js/jquery-1.12.4.js"></script>
+     <script type="text/javascript" src="__BOOTSTRAP__/js/bootstrap.min.js"></script>
+      <script src="http://open.51094.com/user/myscript/159e341c4a9cc6.html"></script>
+      <script type="text/javascript" src="___JS__/FreeZoomer.js"></script>
+     <!-- QQ -->
+     <!-- <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="appid" data-redirecturi="callback" charset="utf-8"></script> -->
+      <style>
+        .header-top__user .login-box .youxiang img
+          {
+           margin-right:100px;
+          }
+          .header-top__user .login-box .yonghu{
+            float:left;
+            text-decoration: none;
+            margin-right: 0px;
+          }
+
+          *{margin:0;padding:0;list-style-type:none;}
+          a,img{border:0;}
+          body{background:url(__IMAGES__/blog7year_videobg.png);font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+
+
+          /* actGotop */
+          .actGotop{position:fixed;_position:absolute;bottom:100px;right:50px;width:150px;height:195px;display:none;}
+          .actGotop a,.actGotop a:link{width:150px;height:195px;display:inline-block;background:url(__IMAGES__/blog7year_gotop.png) no-repeat;_background:url(__IMAGES__/blog7year_gotop.gif) no-repeat;outline:none;}
+          .actGotop a:hover{background:url(__IMAGES__/blog7year_gotopd.gif) no-repeat;outline:none;}
+
+        /******/
+          .sanfang{
+            background:blue; 
+          }
+      </style>
+</head>
+<body>
+
+  <header id="header">
+  {include file="public:header"}
+
+
+  </header>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="input-group">
+          <span class="input-group-btn">
+            <button class="btn btn-default" id="jiemeng"type="button">周公解梦</button>
+          </span>
+          <input type="text" name="meng"class="form-control" placeholder="Are you OK?">
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+  
+    </div>
+
+<p style="margin-left: 100px;" class="lead" id="bannerfa"><ul id="jmavi"></ul></p>
+  <!-- 
+
+  <script type="text/javascript" src="__JS__/banner.js"></script> -->
+<script type="text/javascript" src="__BOOTSTRAP__/js/jquery-1.12.4.js"></script>
+<script type="text/javascript">
+ var bannerlist = $("#bannerfa");
+ $('#jiemeng').click(function(){
+        //alert(1);
+        var meng=$('input[name=meng]').val();
+        var param={
+            "meng":meng
+        }
+        $.post("{:url('index/zhoubian/jiemeng')}",param,function(data){
+              for(var i = 0; i < data.length; i++)
+              {
+                $("#jmavi").append("<li>"+data[i].name+": </li><li>"+data[i].content+"</li>");
+              }
+             
+        });
+ });
+
+
+</script>
+ {include file="public:footer"}

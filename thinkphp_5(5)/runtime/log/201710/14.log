@@ -1,0 +1,846 @@
+---------------------------------------------------------------
+[ 2017-10-14T17:57:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img6.jpg
+[ info ] b.com/index/index/images/cont/live-box__img6.jpg [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,105.31kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img6.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:57:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img1.jpg
+[ info ] b.com/index/index/images/cont/live-box__img1.jpg [运行时间：0.126007s][吞吐率：7.94req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img1.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:57:58+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] b.com/captcha.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,667.55kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\think\thinkphp_5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:57:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img3.jpg
+[ info ] b.com/index/index/images/cont/live-box__img3.jpg [运行时间：0.241014s][吞吐率：4.15req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img3.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ info ] b.com/index/index/index.html [运行时间：0.080004s][吞吐率：12.50req/s] [内存消耗：3,118.79kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\think\thinkphp_5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\think\thinkphp_5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /static/bootstrap/fonts/bootstrap.css
+[ info ] b.com/static/bootstrap/fonts/bootstrap.css [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,682.80kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/game-center__img1.jpg
+[ info ] b.com/index/index/images/cont/game-center__img1.jpg [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,105.08kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game-center__img1.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img3.jpg
+[ info ] b.com/index/index/images/cont/live-box__img3.jpg [运行时间：0.049002s][吞吐率：20.41req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img3.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img1.jpg
+[ info ] b.com/index/index/images/cont/live-box__img1.jpg [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img1.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/game_img2.png
+[ info ] b.com/index/index/images/cont/game_img2.png [运行时间：0.065003s][吞吐率：15.38req/s] [内存消耗：2,105.04kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img2.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img6.jpg
+[ info ] b.com/index/index/images/cont/live-box__img6.jpg [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img6.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img5.jpg
+[ info ] b.com/index/index/images/cont/live-box__img5.jpg [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img5.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img4.gif
+[ info ] b.com/index/index/images/cont/live-box__img4.gif [运行时间：0.077005s][吞吐率：12.99req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img4.gif',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img2.jpg
+[ info ] b.com/index/index/images/cont/live-box__img2.jpg [运行时间：0.146009s][吞吐率：6.85req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img2.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/game_img1.png
+[ info ] b.com/index/index/images/cont/game_img1.png [运行时间：0.242014s][吞吐率：4.13req/s] [内存消耗：2,105.04kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img1.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] b.com/captcha.html [运行时间：0.126007s][吞吐率：7.94req/s] [内存消耗：1,667.74kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\think\thinkphp_5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/game_img3.jpg
+[ info ] b.com/index/index/images/cont/game_img3.jpg [运行时间：0.226013s][吞吐率：4.42req/s] [内存消耗：2,105.04kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img3.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ info ] b.com/index/index/index.html [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,414.69kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\think\thinkphp_5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\think\thinkphp_5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /static/bootstrap/fonts/bootstrap.css
+[ info ] b.com/static/bootstrap/fonts/bootstrap.css [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,682.80kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img2.jpg
+[ info ] b.com/index/index/images/cont/live-box__img2.jpg [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img2.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/game_img2.png
+[ info ] b.com/index/index/images/cont/game_img2.png [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,105.04kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img2.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/game-center__img1.jpg
+[ info ] b.com/index/index/images/cont/game-center__img1.jpg [运行时间：0.136007s][吞吐率：7.35req/s] [内存消耗：2,105.08kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game-center__img1.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/game_img1.png
+[ info ] b.com/index/index/images/cont/game_img1.png [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,105.04kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img1.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img1.jpg
+[ info ] b.com/index/index/images/cont/live-box__img1.jpg [运行时间：0.081004s][吞吐率：12.35req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img1.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/game_img3.jpg
+[ info ] b.com/index/index/images/cont/game_img3.jpg [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,105.04kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img3.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img3.jpg
+[ info ] b.com/index/index/images/cont/live-box__img3.jpg [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img3.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img4.gif
+[ info ] b.com/index/index/images/cont/live-box__img4.gif [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img4.gif',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img6.jpg
+[ info ] b.com/index/index/images/cont/live-box__img6.jpg [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img6.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/images/cont/live-box__img5.jpg
+[ info ] b.com/index/index/images/cont/live-box__img5.jpg [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,105.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'live-box__img5.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-14T17:58:36+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] b.com/captcha.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,667.74kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp64\www\think\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://b.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'pgv_pvi=5672056832; PHPSESSID=73edf1h1rhrq5vgcnof3mevqn1; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\think\thinkphp_5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

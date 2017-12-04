@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>修改资料</title>
+<link rel="stylesheet" type="text/css" href="__CSS__/css.css" />
+<script type="text/javascript" src="__JS__/jquery.min.js"></script>
+<style>
+	
+	
+	.mnmn{-height:600px;width:1000px;margin-left:0px;}
+	.bbD .bbDP .btn_ok{margin-top:0px;}
+	.bbD .text2{min-height:125px;margin-left:-53px;}
+	
+</style>
+</head>
+<body>
+	<div id="pageAll">
+		<div class="pageTop pageee">
+			
+		</div>
+		<div class="page ">
+			
+			<div class="banneradd bor mnmn">
+				<div class="baTopNo">
+					<span>修改资料</span>
+				</div>
+				<div class="baBody">
+	<form enctype="multipart/form-data" method="post" class="xiu" action="{:url('admin/adminuser/xiugai')}">
+			<div class="bbD"  id="uploadimg">
+			<!-- 头像 -->
+			<!-- <div style="width: 500px" id="upload_head">
+			<label class="fileLabel" style="margin-left: -22px" for="upfiles" >选择头像:</label>
+			<input id="upfiles" name="image" type="file" class="fileInput" style="display: none;">
+
+			</div> -->
+			</div>
+			<div class="bbD">
+			昵称：<input type="text" class="input3" name="username" style="margin-left: 23px"placeholder="新名称"/>
+			</div>
+			<div class="bbD">
+			邮箱：<input type="text" class="input3"  name="email" style="margin-left: 23px" placeholder="更改绑定邮箱"/>
+			</div>
+
+			<div class="bbD">
+			手机号：<input class="input3"  name="phone" type="text"/>
+			</div>
+			<div class="bbD">
+			签名：
+			<div class="btext2">
+				<textarea style="margin-left: -38px" class="text2" name="qianming"></textarea>
+			</div>
+			</div>
+			<div class="bbD">
+			性别：<label><input type="radio" checked="checked" name="sex" value="1"/>&nbsp;男</label><label><input type="radio" name="sex" value="0"/>&nbsp;女</label>
+			</div>
+			<div class="bbD">
+				<p class="bbDP">
+					<button class="btn_ok btn_yes" href="#">提交</button>
+					<a class="btn_ok btn_no" href="{:url('admin/admin/member_list')}">取消</a>
+				</p>
+			</div>
+		</form>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="__CSS__/lib/Validform/5.3.2/Validform.min.js"></script> 
+	<script type="text/javascript">
+	$("#upload_head").on("change",function(e){
+		file = e.target.files[0];
+		//alert(file);
+		console.log(e.target.files[0]);
+	  url = URL.createObjectURL(file);
+	  //alert(url);
+	  $("#upload_head").after('<img src='+url+' style="margin-left:68px;margin-top:10px;width:150px;height:150px;"></img>');
+	  //$("#uploadimg").submit();
+	});
+
+
+	</script>
+</body>
+</html>

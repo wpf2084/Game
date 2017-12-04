@@ -1,0 +1,2904 @@
+---------------------------------------------------------------
+[ 2017-10-25T22:18:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img2.png
+[ info ] www.bb.com/index/userall/images/cont/game_img2.png [运行时间：0.245098s][吞吐率：4.08req/s] [内存消耗：1,695.55kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img2.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img3.jpg
+[ info ] www.bb.com/index/userall/images/cont/game_img3.jpg [运行时间：0.267656s][吞吐率：3.74req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img3.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img1.png
+[ info ] www.bb.com/index/userall/images/cont/game_img1.png [运行时间：0.283640s][吞吐率：3.53req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img1.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:19+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.bb.com/captcha.html [运行时间：0.296002s][吞吐率：3.38req/s] [内存消耗：1,338.41kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\game\thinkphp_5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index/userall/paymember
+[ info ] www.bb.com/index/userall/paymember [运行时间：0.029812s][吞吐率：33.54req/s] [内存消耗：2,800.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'paymember',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'sum' => '233',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->paymember[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001368s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_user` [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT `balance` FROM `danmu_user` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:18:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index/userall/paymember
+[ info ] www.bb.com/index/userall/paymember [运行时间：0.026326s][吞吐率：37.99req/s] [内存消耗：2,800.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'paymember',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'sum' => '233',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->paymember[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000939s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_user` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT `balance` FROM `danmu_user` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000238s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:18:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/member.html
+[ info ] www.bb.com/index/userall/member.html [运行时间：0.047768s][吞吐率：20.93req/s] [内存消耗：1,937.89kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/user_info.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->member[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ VIEW ] D:\wamp64\www\game\thinkphp_5\public/../application/index\view\userall\member.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game-center__img1.jpg
+[ info ] www.bb.com/index/userall/images/cont/game-center__img1.jpg [运行时间：0.017552s][吞吐率：56.97req/s] [内存消耗：1,695.35kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game-center__img1.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img1.png
+[ info ] www.bb.com/index/userall/images/cont/game_img1.png [运行时间：0.030986s][吞吐率：32.27req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img1.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img2.png
+[ info ] www.bb.com/index/userall/images/cont/game_img2.png [运行时间：0.038953s][吞吐率：25.67req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img2.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:29+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.bb.com/captcha.html [运行时间：0.056351s][吞吐率：17.75req/s] [内存消耗：1,338.41kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\game\thinkphp_5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img3.jpg
+[ info ] www.bb.com/index/userall/images/cont/game_img3.jpg [运行时间：0.074994s][吞吐率：13.33req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img3.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:29+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/leftnavicohover.gif
+[ info ] www.bb.com/static/images/leftnavicohover.gif [运行时间：0.023274s][吞吐率：42.97req/s] [内存消耗：1,304.02kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'leftnavicohover.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:29+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/openico.gif
+[ info ] www.bb.com/static/images/openico.gif [运行时间：0.021093s][吞吐率：47.41req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'openico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:29+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/leftnavico.gif
+[ info ] www.bb.com/static/images/leftnavico.gif [运行时间：0.024030s][吞吐率：41.61req/s] [内存消耗：1,303.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'leftnavico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:29+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/sonico.gif
+[ info ] www.bb.com/static/images/sonico.gif [运行时间：0.030019s][吞吐率：33.31req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'sonico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:18:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index/userall/paymember
+[ info ] www.bb.com/index/userall/paymember [运行时间：0.030743s][吞吐率：32.53req/s] [内存消耗：2,800.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'paymember',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'sum' => '233',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->paymember[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001067s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_user` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT `balance` FROM `danmu_user` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:20:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/member.html
+[ info ] www.bb.com/index/userall/member.html [运行时间：0.050478s][吞吐率：19.81req/s] [内存消耗：1,937.89kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/user_info.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->member[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ VIEW ] D:\wamp64\www\game\thinkphp_5\public/../application/index\view\userall\member.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:20:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game-center__img1.jpg
+[ info ] www.bb.com/index/userall/images/cont/game-center__img1.jpg [运行时间：0.022921s][吞吐率：43.63req/s] [内存消耗：1,695.35kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game-center__img1.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:20:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img1.png
+[ info ] www.bb.com/index/userall/images/cont/game_img1.png [运行时间：0.018361s][吞吐率：54.46req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img1.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:20:00+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.bb.com/captcha.html [运行时间：0.033219s][吞吐率：30.10req/s] [内存消耗：1,338.41kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\game\thinkphp_5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:20:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img3.jpg
+[ info ] www.bb.com/index/userall/images/cont/game_img3.jpg [运行时间：0.057847s][吞吐率：17.29req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img3.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:20:00+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/openico.gif
+[ info ] www.bb.com/static/images/openico.gif [运行时间：0.023148s][吞吐率：43.20req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'openico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:20:00+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/leftnavicohover.gif
+[ info ] www.bb.com/static/images/leftnavicohover.gif [运行时间：0.025395s][吞吐率：39.38req/s] [内存消耗：1,304.02kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'leftnavicohover.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:20:00+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/leftnavico.gif
+[ info ] www.bb.com/static/images/leftnavico.gif [运行时间：0.027520s][吞吐率：36.34req/s] [内存消耗：1,303.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'leftnavico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:20:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img2.png
+[ info ] www.bb.com/index/userall/images/cont/game_img2.png [运行时间：0.093420s][吞吐率：10.70req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img2.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:20:00+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/sonico.gif
+[ info ] www.bb.com/static/images/sonico.gif [运行时间：0.035191s][吞吐率：28.42req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'sonico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:20:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index/userall/paymember
+[ info ] www.bb.com/index/userall/paymember [运行时间：0.046150s][吞吐率：21.67req/s] [内存消耗：2,800.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'paymember',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'sum' => '233',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->paymember[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021744s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_user` [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT `balance` FROM `danmu_user` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/member.html
+[ info ] www.bb.com/index/userall/member.html [运行时间：0.050112s][吞吐率：19.96req/s] [内存消耗：1,937.89kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/user_info.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->member[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ VIEW ] D:\wamp64\www\game\thinkphp_5\public/../application/index\view\userall\member.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game-center__img1.jpg
+[ info ] www.bb.com/index/userall/images/cont/game-center__img1.jpg [运行时间：0.029291s][吞吐率：34.14req/s] [内存消耗：1,695.35kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game-center__img1.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img1.png
+[ info ] www.bb.com/index/userall/images/cont/game_img1.png [运行时间：0.017786s][吞吐率：56.22req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img1.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img3.jpg
+[ info ] www.bb.com/index/userall/images/cont/game_img3.jpg [运行时间：0.039850s][吞吐率：25.09req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img3.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img2.png
+[ info ] www.bb.com/index/userall/images/cont/game_img2.png [运行时间：0.064430s][吞吐率：15.52req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img2.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/leftnavicohover.gif
+[ info ] www.bb.com/static/images/leftnavicohover.gif [运行时间：0.020985s][吞吐率：47.65req/s] [内存消耗：1,304.02kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'leftnavicohover.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/openico.gif
+[ info ] www.bb.com/static/images/openico.gif [运行时间：0.022111s][吞吐率：45.23req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'openico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.bb.com/captcha.html [运行时间：0.094478s][吞吐率：10.58req/s] [内存消耗：1,338.41kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\game\thinkphp_5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/sonico.gif
+[ info ] www.bb.com/static/images/sonico.gif [运行时间：0.030879s][吞吐率：32.38req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'sonico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:10+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/leftnavico.gif
+[ info ] www.bb.com/static/images/leftnavico.gif [运行时间：0.039138s][吞吐率：25.55req/s] [内存消耗：1,303.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'leftnavico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:13+08:00 ] 127.0.0.1 127.0.0.1 POST /index/userall/paymember
+[ info ] www.bb.com/index/userall/paymember [运行时间：0.054848s][吞吐率：18.23req/s] [内存消耗：2,800.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'paymember',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'sum' => '233',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->paymember[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006826s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_user` [ RunTime:0.024207s ]
+[ sql ] [ SQL ] SELECT `balance` FROM `danmu_user` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/member.html
+[ info ] www.bb.com/index/userall/member.html [运行时间：0.049565s][吞吐率：20.18req/s] [内存消耗：1,937.89kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'member',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/user_info.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->member[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ VIEW ] D:\wamp64\www\game\thinkphp_5\public/../application/index\view\userall\member.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game-center__img1.jpg
+[ info ] www.bb.com/index/userall/images/cont/game-center__img1.jpg [运行时间：0.024560s][吞吐率：40.72req/s] [内存消耗：1,695.35kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game-center__img1.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img1.png
+[ info ] www.bb.com/index/userall/images/cont/game_img1.png [运行时间：0.019232s][吞吐率：52.00req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img1.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img2.png
+[ info ] www.bb.com/index/userall/images/cont/game_img2.png [运行时间：0.033654s][吞吐率：29.71req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img2.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.bb.com/captcha.html [运行时间：0.061300s][吞吐率：16.31req/s] [内存消耗：1,338.41kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\game\thinkphp_5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/leftnavico.gif
+[ info ] www.bb.com/static/images/leftnavico.gif [运行时间：0.021670s][吞吐率：46.15req/s] [内存消耗：1,303.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'leftnavico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img3.jpg
+[ info ] www.bb.com/index/userall/images/cont/game_img3.jpg [运行时间：0.095763s][吞吐率：10.44req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img3.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/leftnavicohover.gif
+[ info ] www.bb.com/static/images/leftnavicohover.gif [运行时间：0.042423s][吞吐率：23.57req/s] [内存消耗：1,304.02kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'leftnavicohover.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/sonico.gif
+[ info ] www.bb.com/static/images/sonico.gif [运行时间：0.062596s][吞吐率：15.98req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'sonico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:22:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index/userall/paymember
+[ info ] www.bb.com/index/userall/paymember [运行时间：0.034022s][吞吐率：29.39req/s] [内存消耗：2,800.05kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'paymember',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'sum' => '233',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->paymember[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001183s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_user` [ RunTime:0.001029s ]
+[ sql ] [ SQL ] SELECT `balance` FROM `danmu_user` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:22:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/sonico.gif
+[ info ] www.bb.com/static/images/sonico.gif [运行时间：0.015578s][吞吐率：64.19req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'sonico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/upload_head.html
+[ info ] www.bb.com/index/userall/upload_head.html [运行时间：0.063923s][吞吐率：15.64req/s] [内存消耗：1,929.72kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'upload_head',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/member.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->upload_head[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ VIEW ] D:\wamp64\www\game\thinkphp_5\public/../application/index\view\userall\upload_head.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game-center__img1.jpg
+[ info ] www.bb.com/index/userall/images/cont/game-center__img1.jpg [运行时间：0.017170s][吞吐率：58.24req/s] [内存消耗：1,695.35kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/upload_head.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game-center__img1.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img1.png
+[ info ] www.bb.com/index/userall/images/cont/game_img1.png [运行时间：0.024925s][吞吐率：40.12req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/upload_head.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img1.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img3.jpg
+[ info ] www.bb.com/index/userall/images/cont/game_img3.jpg [运行时间：0.036003s][吞吐率：27.78req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/upload_head.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img3.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/leftnavicohover.gif
+[ info ] www.bb.com/static/images/leftnavicohover.gif [运行时间：0.016688s][吞吐率：59.92req/s] [内存消耗：1,304.02kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'leftnavicohover.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/leftnavico.gif
+[ info ] www.bb.com/static/images/leftnavico.gif [运行时间：0.019523s][吞吐率：51.22req/s] [内存消耗：1,303.99kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'leftnavico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img2.png
+[ info ] www.bb.com/index/userall/images/cont/game_img2.png [运行时间：0.058788s][吞吐率：17.01req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/upload_head.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img2.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/openico.gif
+[ info ] www.bb.com/static/images/openico.gif [运行时间：0.022348s][吞吐率：44.75req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'openico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.bb.com/captcha.html [运行时间：0.076204s][吞吐率：13.12req/s] [内存消耗：1,338.41kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/upload_head.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\game\thinkphp_5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/sonico.gif
+[ info ] www.bb.com/static/images/sonico.gif [运行时间：0.026732s][吞吐率：37.41req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'sonico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/user_info.html
+[ info ] www.bb.com/index/userall/user_info.html [运行时间：0.017059s][吞吐率：58.62req/s] [内存消耗：1,678.03kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'user_info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/upload_head.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->user_info[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ VIEW ] D:\wamp64\www\game\thinkphp_5\public/../application/index\view\userall\user_info.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game-center__img1.jpg
+[ info ] www.bb.com/index/userall/images/cont/game-center__img1.jpg [运行时间：0.018229s][吞吐率：54.86req/s] [内存消耗：1,695.35kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/user_info.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game-center__img1.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img1.png
+[ info ] www.bb.com/index/userall/images/cont/game_img1.png [运行时间：0.035116s][吞吐率：28.48req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/user_info.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img1.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/leftnavicohover.gif
+[ info ] www.bb.com/static/images/leftnavicohover.gif [运行时间：0.037266s][吞吐率：26.83req/s] [内存消耗：1,304.02kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'leftnavicohover.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img2.png
+[ info ] www.bb.com/index/userall/images/cont/game_img2.png [运行时间：0.061058s][吞吐率：16.38req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/user_info.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img2.png',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/openico.gif
+[ info ] www.bb.com/static/images/openico.gif [运行时间：0.020056s][吞吐率：49.86req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'openico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/userall/images/cont/game_img3.jpg
+[ info ] www.bb.com/index/userall/images/cont/game_img3.jpg [运行时间：0.084118s][吞吐率：11.89req/s] [内存消耗：1,695.30kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/user_info.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'cont' => 'game_img3.jpg',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:50+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/sonico.gif
+[ info ] www.bb.com/static/images/sonico.gif [运行时间：0.025805s][吞吐率：38.75req/s] [内存消耗：1,303.96kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'sonico.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/master.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:50+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.bb.com/captcha.html [运行时间：0.105966s][吞吐率：9.44req/s] [内存消耗：1,338.41kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/index/userall/user_info.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\game\thinkphp_5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:23:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index/userall/usersign
+[ info ] www.bb.com/index/userall/usersign [运行时间：0.101694s][吞吐率：9.83req/s] [内存消耗：2,797.83kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'usersign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://www.bb.com/index/userall/user_info.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->usersign[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004946s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_user` [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT `signDay` FROM `danmu_user` `u` INNER JOIN `danmu_sign` `s` ON `u`.`id`=`s`.`user_id` WHERE  `user_id` = 24 [ RunTime:0.001713s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:23:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index/userall/sign
+[ info ] www.bb.com/index/userall/sign [运行时间：0.105916s][吞吐率：9.44req/s] [内存消耗：2,800.81kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'userall',
+    2 => 'sign',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bb.com/index/userall/user_info.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'time' => '1508941430032',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Userall->sign[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Userall.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001063s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_user` [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SELECT `lasttime`,`is_sign` FROM `danmu_user` WHERE  `id` = 24 LIMIT 1 [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:35:07+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.bb.com/ [运行时间：0.037076s][吞吐率：26.97req/s] [内存消耗：2,880.47kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\game\thinkphp_5\public/../application/index\view\index\index.html [ array (
+  0 => 'data',
+  1 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004968s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_guan` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_guan` LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_video` [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT COUNT(vid) AS tp_count FROM `danmu_video` LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_type` [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_type` [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:35:07+08:00 ] 127.0.0.1 127.0.0.1 GET /_/static/js/FreeZoomer.js
+[ info ] www.bb.com/_/static/js/FreeZoomer.js [运行时间：0.014108s][吞吐率：70.88req/s] [内存消耗：1,303.53kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '_',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:35:07+08:00 ] 127.0.0.1 127.0.0.1 GET /images/cont/game-center__img1.jpg
+[ info ] www.bb.com/images/cont/game-center__img1.jpg [运行时间：0.013129s][吞吐率：76.17req/s] [内存消耗：1,303.88kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'cont',
+    2 => 'game-center__img1.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:35:07+08:00 ] 127.0.0.1 127.0.0.1 GET /images/cont/game_img1.png
+[ info ] www.bb.com/images/cont/game_img1.png [运行时间：0.015108s][吞吐率：66.19req/s] [内存消耗：1,303.82kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'cont',
+    2 => 'game_img1.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:35:07+08:00 ] 127.0.0.1 127.0.0.1 GET /images/cont/game_img2.png
+[ info ] www.bb.com/images/cont/game_img2.png [运行时间：0.014818s][吞吐率：67.49req/s] [内存消耗：1,303.82kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'cont',
+    2 => 'game_img2.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:35:07+08:00 ] 127.0.0.1 127.0.0.1 GET /images/cont/game_img3.jpg
+[ info ] www.bb.com/images/cont/game_img3.jpg [运行时间：0.015042s][吞吐率：66.48req/s] [内存消耗：1,303.82kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'cont',
+    2 => 'game_img3.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:35:07+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/cont/nav-square__img.jpg
+[ info ] www.bb.com/static/images/cont/nav-square__img.jpg [运行时间：0.015588s][吞吐率：64.15req/s] [内存消耗：1,303.84kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'cont',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:35:07+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] www.bb.com/captcha.html [运行时间：0.015376s][吞吐率：65.04req/s] [内存消耗：1,338.25kb] [文件加载：32]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp64\www\game\thinkphp_5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:35:08+08:00 ] 127.0.0.1 127.0.0.1 GET /_/static/js/FreeZoomer.js
+[ info ] www.bb.com/_/static/js/FreeZoomer.js [运行时间：0.013636s][吞吐率：73.33req/s] [内存消耗：1,303.53kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '_',
+    1 => 'static',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:35:08+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/blog7year_videobg.png
+[ info ] www.bb.com/static/images/blog7year_videobg.png [运行时间：0.014066s][吞吐率：71.09req/s] [内存消耗：1,303.88kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'blog7year_videobg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:35:08+08:00 ] 127.0.0.1 127.0.0.1 GET /static/css/loading.gif
+[ info ] www.bb.com/static/css/loading.gif [运行时间：0.020602s][吞吐率：48.54req/s] [内存消耗：1,303.97kb] [文件加载：33]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bb.com/static/css/dastyle.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-25T22:35:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/reveal
+[ info ] www.bb.com/index/index/reveal [运行时间：0.097923s][吞吐率：10.21req/s] [内存消耗：2,824.10kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'reveal',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->reveal[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003327s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_guan` [ RunTime:0.002878s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_guan` LIMIT 1 [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_video` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT COUNT(vid) AS tp_count FROM `danmu_video` WHERE  `tid` = 233 LIMIT 1 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_video` WHERE  `tid` = 233 LIMIT 0,6 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_user` [ RunTime:0.002465s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.002030s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.001123s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:35:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getMovie
+[ info ] www.bb.com/index/index/getMovie [运行时间：0.134310s][吞吐率：7.45req/s] [内存消耗：2,819.45kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getMovie',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->getMovie[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001903s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_guan` [ RunTime:0.004065s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_guan` LIMIT 1 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_video` [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_video` WHERE  `tid` = 5 OR ( `tid` = 6 OR `tid` = 7 ) [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_user` [ RunTime:0.002070s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.001366s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:35:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getAnimate
+[ info ] www.bb.com/index/index/getAnimate [运行时间：0.199722s][吞吐率：5.01req/s] [内存消耗：2,824.22kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getAnimate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->getAnimate[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008070s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_guan` [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_guan` LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_video` [ RunTime:0.005382s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_video` WHERE  `tid` = 3 OR `tid` = 4 [ RunTime:0.001344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_user` [ RunTime:0.001552s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT `nickname` FROM `danmu_user` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:35:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getTop
+[ info ] www.bb.com/index/index/getTop [运行时间：0.220900s][吞吐率：4.53req/s] [内存消耗：2,792.58kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getTop',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'tid' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->getTop[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014745s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_guan` [ RunTime:0.016587s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_guan` LIMIT 1 [ RunTime:0.002260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_video` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_video` WHERE  `tid` = 3 ORDER BY count desc LIMIT 0,3 [ RunTime:0.015447s ]
+---------------------------------------------------------------
+[ 2017-10-25T22:35:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/getTop
+[ info ] www.bb.com/index/index/getTop [运行时间：0.243695s][吞吐率：4.10req/s] [内存消耗：2,792.62kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp64\www\game\thinkphp_5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getTop',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => '*/*',
+  'origin' => 'http://www.bb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=v4r5kivlnp5c3pgskkin2s4jiv; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'tid' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->getTop[ D:\wamp64\www\game\thinkphp_5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015237s ] mysql:host=127.0.0.1;port=3306;dbname=danmu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_guan` [ RunTime:0.017081s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_guan` LIMIT 1 [ RunTime:0.003020s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `danmu_video` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `danmu_video` WHERE  `tid` = 4 ORDER BY count desc LIMIT 0,3 [ RunTime:0.000574s ]

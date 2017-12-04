@@ -1,0 +1,200 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:50:"D:\wamp64\www\game\thinkphp_5\thinkphp\tpl\tz.html";i:1508466281;}*/ ?>
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>纯CSS小猫在弦上摇摆的动画特效</title>
+<link type="text/css" rel="stylesheet" href="css/stylee.css"/>
+</head>
+
+<body>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>跳转中，请稍后</title>
+		<link type="text/css" rel="stylesheet" href="__CSS__/tz.css"/>
+	<style type="text/css">
+		.div{background:#00EE76;width:300px;height:300px;bolder:1px solid #fff;position: absolute;top:50%;left: 50%;margin-left: -150px;margin-top: -150px;text-align: center;line-height: 150px;font-size:30px;font-weight: bold;color:#00FFFF;}
+		.span1{float:left;width:300px;height:150px;}
+		.span2{float: right;width:300px;height:150px;}
+
+	</style>
+	<script type="text/javascript">
+		window.onload = function()
+		{
+			var oT = document.getElementById('time');
+
+			var n = 3;
+
+			oT.innerHTML = n+'秒后跳转<a href="<?php echo $url; ?>">立马跳转</a>';
+			setInterval(function(){
+				n--;
+				if (n == 0) {
+					window.location.href="<?php echo $url; ?>";
+         // window.location.href=history.back(-1);
+				} else {
+					oT.innerHTML = n+'秒后跳转<a href="<?php echo $url; ?>" target="_right">立马跳转</a>';
+				}
+				
+			},3000);
+		
+		}
+	</script>
+</head>
+<body >
+	<div class="div">
+		<span class="span1" id="time">跳转中，请稍后</span>
+		<span class="span2"></span>
+	</div>
+<div class="all-wrap">
+  <div class="all">
+    <div class="yarn"></div>
+    <div class="cat-wrap">
+      <div class="cat">
+        <div class="cat-upper">
+          <div class="cat-leg"></div>
+          <div class="cat-leg"></div>
+          <div class="cat-head">
+            <div class="cat-ears">
+              <div class="cat-ear"></div>
+              <div class="cat-ear"></div>
+            </div>
+            <div class="cat-face">
+              <div class="cat-eyes"></div>
+              <div class="cat-mouth"></div>
+              <div class="cat-whiskers"></div>
+            </div>
+          </div>
+        </div>
+        <div class="cat-lower-wrap">
+          <div class="cat-lower">
+            <div class="cat-leg">
+              <div class="cat-leg">
+                <div class="cat-leg">
+                  <div class="cat-leg">
+                    <div class="cat-leg">
+                      <div class="cat-leg">
+                        <div class="cat-leg">
+                          <div class="cat-leg">
+                            <div class="cat-leg">
+                              <div class="cat-leg">
+                                <div class="cat-leg">
+                                  <div class="cat-leg">
+                                    <div class="cat-leg">
+                                      <div class="cat-leg">
+                                        <div class="cat-leg">
+                                          <div class="cat-leg">
+                                            <div class="cat-paw"></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cat-leg">
+              <div class="cat-leg">
+                <div class="cat-leg">
+                  <div class="cat-leg">
+                    <div class="cat-leg">
+                      <div class="cat-leg">
+                        <div class="cat-leg">
+                          <div class="cat-leg">
+                            <div class="cat-leg">
+                              <div class="cat-leg">
+                                <div class="cat-leg">
+                                  <div class="cat-leg">
+                                    <div class="cat-leg">
+                                      <div class="cat-leg">
+                                        <div class="cat-leg">
+                                          <div class="cat-leg">
+                                            <div class="cat-paw"></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cat-tail">
+              <div class="cat-tail">
+                <div class="cat-tail">
+                  <div class="cat-tail">
+                    <div class="cat-tail">
+                      <div class="cat-tail">
+                        <div class="cat-tail">
+                          <div class="cat-tail">
+                            <div class="cat-tail">
+                              <div class="cat-tail">
+                                <div class="cat-tail">
+                                  <div class="cat-tail">
+                                    <div class="cat-tail">
+                                      <div class="cat-tail">
+                                        <div class="cat-tail">
+                                          <div class="cat-tail -end"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+</body>
+
+<script type="text/javascript">
+        (function(){
+            var wait = document.getElementById('wait'),
+                href = document.getElementById('href').href;
+            var interval = setInterval(function(){
+                var time = --wait.innerHTML;
+                if(time <= 0) {
+                    location.href = history.back(-1);
+                    clearInterval(interval);
+                };
+
+            }, 3000);
+
+        })();
+    </script>
+</html>

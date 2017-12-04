@@ -1,0 +1,224 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:92:"D:\wamp64\www\game\thinkphp_5\public/../application/admin\view\adminuser\admin_role_add.html";i:1508736744;}*/ ?>
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="__CSS__/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__CSS__/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="__CSS__/H-style.css" rel="stylesheet" type="text/css" />
+<link href="__CSS__/lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>新建网站角色</title>
+</head>
+<body>
+<div class="pd-20">
+	
+	<form  action=""  method="post" class="form form-horizontal" id="form-user-character-add">
+		<div class="row cl">
+			<label class="form-label col-2"><span class="c-red">*</span>角色名称：</label>
+			<div class="formControls col-10">
+				<input type="hidden" class="input-text" value="<?php echo $id; ?>" placeholder="" id="user-name" name="roleid" datatype="*4-16" nullmsg="用户账户不能为空">
+				<input type="text" class="input-text" value="<?php echo $name; ?>" placeholder="" id="user-name" name="username" datatype="*4-16" nullmsg="用户账户不能为空">
+				
+			</div>
+		</div>
+		<!-- <div class="row cl">
+			<label class="form-label col-2">备注：</label>
+			<div class="formControls col-10">
+				<input type="text" class="input-text" value="" placeholder="" id="" name="">
+			</div>
+		</div> -->
+		<div class="row cl">
+			<label class="form-label col-2">权限列表：</label>
+			<div class="formControls col-10">
+				<dl class="permission-list">
+					<!-- <input type="hidden" id="all"> -->
+					<input type="button" value="全选" class="btn" id="selectAll">  
+					<input type="button" value="全不选" class="btn" id="unSelect">  
+					<input type="button" value="反选" class="btn" id="reverse">  
+					
+					
+					<!-- <input type="checkbox" id="all">  
+
+					<input type="button" value="全选"class="btn" id="selectAll">  
+
+					<input type="button" value="全不选"class="btn" id="unSelect">  
+
+					<input type="button" value="反选"class="btn" id="reverse">  
+
+					<input type="button" value="获得选中的所有值"class="btn" id="getValue"> -->
+					
+					<dd>
+						<dl class="cl permission-list2">
+
+					<?php if(!empty($info)): foreach($info as $key=>$val): ?>
+
+							<dt >
+								<label  id="list" class="">
+									<input type="checkbox" value="<?php echo $val['id']; ?>" name="check" id="user-Character-0-0"
+									<?php if(in_array($val['id'],$access_ids)): ?>
+									checked 
+									<?php endif; ?>
+									/>
+									<?php echo $val['title']; ?>
+								</label>
+							</dt>
+							<!-- <dd>
+								<label class="">
+									<input type="checkbox" value="" name="user-Character-0-0-0" id="user-Character-0-0-0">
+									添加</label>
+								<label class="">
+									<input type="checkbox" value="" name="user-Character-0-0-0" id="user-Character-0-0-1">
+									修改</label>
+								<label class="">
+									<input type="checkbox" value="" name="user-Character-0-0-0" id="user-Character-0-0-2">
+									删除</label>
+								<label class="">
+									<input type="checkbox" value="" name="user-Character-0-0-0" id="user-Character-0-0-3">
+									查看</label>
+								<label class="">
+									<input type="checkbox" value="" name="user-Character-0-0-0" id="user-Character-0-0-4">
+									审核</label>
+								<label class="c-orange"><input type="checkbox" value="" name="user-Character-0-0-0" id="user-Character-0-0-5"> 只能操作自己发布的</label>
+							</dd> -->
+
+
+					<?php endforeach; endif; ?>
+						</dl>
+						
+					</dd>
+					
+				</dl>
+				
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-10 col-offset-2">
+				<button type="button" class="btn btn-success radius" onclick="dable()"><i class="icon-ok"></i> 确定</button>
+			</div>
+		</div>
+	</form>
+
+</div>
+<script type="text/javascript" src="__CSS__/lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="__CSS__/lib/layer/1.9.3/layer.js"></script> 
+<script type="text/javascript" src="__CSS__/lib/laypage/1.2/laypage.js"></script> 
+<script type="text/javascript" src="__CSS__/lib/My97DatePicker/WdatePicker.js"></script> 
+<script type="text/javascript" src="__JS__/H-ui.js"></script> 
+<script type="text/javascript" src="__JS__/H-ui.admin.js"></script> 
+<!-- <script type="text/javascript" src="__JS__/role.js"></script> -->
+<!-- <script type="text/javascript" src="/static/js/role.js"></script> -->
+<script>
+$(function(){
+	$(".permission-list dt input:checkbox").click(function(){
+		$(this).closest("dl").find("dd input:checkbox").prop("checked",$(this).prop("checked"));
+	});
+	$(".permission-list2 dd input:checkbox").click(function(){
+		var l =$(this).parent().parent().find("input:checked").length;
+		var l2=$(this).parents(".permission-list").find(".permission-list2 dd").find("input:checked").length;
+		if($(this).prop("checked")){
+			$(this).closest("dl").find("dt input:checkbox").prop("checked",true);
+			$(this).parents(".permission-list").find("dt").first().find("input:checkbox").prop("checked",true);
+		}
+		else{
+			if(l==0){
+				$(this).closest("dl").find("dt input:checkbox").prop("checked",false);
+			}
+			if(l2==0){
+				$(this).parents(".permission-list").find("dt").first().find("input:checkbox").prop("checked",false);
+			}
+		}
+		
+	});
+ 
+
+	 //全选或全不选
+	// $("#all").click(function(){   
+ //    	if(this.checked){   
+ //        	$("#list :checkbox").prop("checked", true);  
+ //    	}else{   
+	// 	$("#list :checkbox").prop("checked", false);
+ //    	}   
+ // 	}); 
+ 	var chknum = $("#list :checkbox").size();//选项总个数
+	//全选  
+    $("#selectAll").click(function () {
+    	$("#list input").each(function(i){
+			$(this).prop("checked", true);  
+    	});
+         
+    });  
+	//全不选
+    $("#unSelect").click(function () {  
+         $("#list input").each(function(i){
+			$(this).prop("checked", false);  
+    	});
+    });  
+    //反选 
+    $("#reverse").click(function () { 
+         $("#list input").each(function () {  
+              $(this).prop("checked", !$(this).prop("checked"));  
+         });
+		 //allchk();
+    });
+	
+
+
+
+
+});
+
+
+//获取角色名
+var rolename=$("input[name=username]");
+//确认按钮
+var role_save=$("input[name=admin-role-save]");
+// <?php echo url('index/adminuser/tianjia_role'); ?>
+
+//赋予角色权限
+function dable(){
+
+				var roleid=$('input[name=roleid]').val();
+				var checkedList=new Array();
+				var notcheckedList=new Array();
+
+				//取得选中权限的id
+				$("input[name='check']:checked").each(function() { 
+					checkedList.push($(this).val()); 
+				}); 
+				//取得未被选中的权限id
+				$("input[name='check']").not("input:checked").each(function(){
+					notcheckedList.push($(this).val());
+				});
+				 var parm={
+				 	"rid":checkedList,
+				 	"arid":notcheckedList,
+				 	"roleid":roleid
+				 }
+				
+			   $.post("<?php echo url('admin/adminuser/bianji_role'); ?>",parm,function(data){
+			   			alert(data.msg);
+						location.href=data.url;
+			   });
+
+
+}
+
+
+
+
+</script>
+</body>
+</html>
